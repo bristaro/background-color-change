@@ -65,14 +65,22 @@ footer {
 
   #column-1 {
     background-color:red ;
+    width: 50%;
+    
+    
   }
 
   #column-2 {
     background-color: orangered;
+    width: 50%;
+    
   }
 
   #column-3 {
-    background-color:darkorange ;
+    background-color:darkorange;
+    width: 100%;
+    
+    
   }
 
   footer {
@@ -85,19 +93,22 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color:darkgreen ;
+    background-color:darkgreen;
   }
 
   #column-1 {
-    background-color:green ;
+    background-color:green;
+    width: 33.3%;
   }
 
   #column-2 {
     background-color: lightgreen;
+    width: 33.3%;
   }
 
   #column-3 {
     background-color:lime ;
+    width: 33.3%;
   }
 
   footer {
